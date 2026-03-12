@@ -1,0 +1,16 @@
+Detailed Instructions for Use:
+
+Editing the Main Script
+Begin by locating the file named “knnkssktt.py”. Open this file using any preferred text editor or integrated development environment (IDE). Within this file, you can modify any parameters, data, or settings as required for your specific analysis or simulation. Once all necessary edits are complete, ensure that you save the file before proceeding to the next step.
+
+Generating the Input Files
+After saving your modifications, run the “knnkssktt.py” script. Executing this Python file will automatically generate a series of input files (.inp files) required for your simulations. These files will be stored in a folder named “Generated Files”. Confirm that all expected input files are successfully generated before moving forward.
+
+Organizing the Generated Files
+Once the .inp files are ready, open the “Generated Files” directory, select all the .inp files, and copy them. Paste these files into the folder named “Paste All Inputs Files In This Folder”, which is located inside another folder called “Submit All Jobs At Once”. This step ensures that all necessary input files are placed correctly for batch submission.
+
+Running Batch Simulations
+Within the “Submit All Jobs At Once” directory, you will find a Python script titled “Batch Submit.py”. Make sure that this script is located in the same directory as all the .inp files you copied in the previous step. To execute all simulations simultaneously, simply double-click on the “Batch Submit.py” file (or run it via a command line or terminal). The script will automatically submit and simulate all jobs at once, allowing for efficient batch processing.
+
+Post-Processing and Analysis
+Once all simulations have been successfully completed, open each output database (ODB) file in Abaqus/CAE. For every ODB file, generate and plot the Force–Displacement curves to visualize the simulation results.
