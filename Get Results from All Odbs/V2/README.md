@@ -2,6 +2,7 @@
 
 This flowchart illustrates the complete workflow of the GetResults.py (V2) script. The script scans the working directory for Abaqus .odb files, extracts the required simulation results from each database, and records the maximum values for stress, creep strain, plastic strain, equivalent plastic strain (PEEQ), and displacement for every model instance. The extracted data from all processed files is consolidated into a single Results.csv file inside the All Required Outputs directory. Error handling is included to ensure that invalid or inaccessible files do not interrupt the overall processing workflow. The diagram below provides a step-by-step overview of the script's execution, from initialization through data extraction to final CSV generation.
 
+```mermaid
 flowchart TD
     %% Style Definitions
     classDef startEnd fill:#2E86C1,stroke:#1B4F72,stroke-width:3px,color:#FFFFFF,font-weight:bold,font-size:14px
@@ -233,3 +234,4 @@ flowchart TD
     class DG,DH,DI,DJ,DS subprocess
     class EA success
     class P,Q loop
+```
