@@ -27,7 +27,7 @@ This project provides a Python script to automate the extraction of results from
 2. Run the script using Abaqus Python:
 
    ```bash
-   abaqus python GetResults.py
+   abaqus cae noGUI=GetResults.py
    ```
 
 3. The script will automatically:
