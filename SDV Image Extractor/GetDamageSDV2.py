@@ -5,6 +5,11 @@
 # Developer: Tufail Mabood
 # Contact: +923440907874 | +923400740460 | Tufail_mabood@yahoo.com
 
+# Some Notes (Adding after uploading):
+# - Place this script in the folder containing your .odb files
+# - Run the script in Abaqus CAE to extract contour images
+# - Images are saved in "SDV" folder with organized subfolders for each ODB and SDV variable (SDV1-SDV10)
+
 from abaqus import *
 from abaqusConstants import *
 from caeModules import *
