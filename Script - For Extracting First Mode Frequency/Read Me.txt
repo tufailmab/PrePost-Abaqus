@@ -1,0 +1,1 @@
+Keep the "IstMode.bat" and "IstMode.py" in the same folder where the .odb files are, then double click on .bat file.
