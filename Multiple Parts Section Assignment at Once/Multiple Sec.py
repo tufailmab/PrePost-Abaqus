@@ -1,3 +1,7 @@
+# Usage Instructions:
+# 1. Enter the common prefix of the part names (e.g., Brick for Brick-1, Brick-2, etc.).
+# 2. Enter the total number of parts to process, starting from 1.
+# 3. Existing section assignments will be deleted and replaced with the specified section.
 
 from abaqusConstants import *
 import regionToolset
